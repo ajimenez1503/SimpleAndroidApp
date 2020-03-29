@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void displayHour(View view) {
         Date currentDate = new Date();
-        Intent intent = new Intent(this, displayHourActivity.class);
+        Intent intent = new Intent(this, DisplayHourActivity.class);
         intent.putExtra(EXTRA_HOUR, currentDate.toString());
         startActivity(intent);
     }
